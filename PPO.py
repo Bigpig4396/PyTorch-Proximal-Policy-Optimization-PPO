@@ -130,7 +130,6 @@ if __name__ == '__main__':
 
     memory = Memory()
     ppo = PPO(state_dim, action_dim, action_std)
-    running_reward = 0
     time_step = 0
 
     # training loop
