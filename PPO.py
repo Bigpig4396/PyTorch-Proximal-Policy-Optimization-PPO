@@ -148,7 +148,6 @@ if __name__ == '__main__':
                 memory.clear_memory()
                 time_step = 0
             acc_r = acc_r + reward
-            running_reward += reward
             # env.render()
             if done:
                 break
